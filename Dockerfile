@@ -1,4 +1,4 @@
-FROM nvidia/cuda:8.0-cudnn6-devel
+FROM nvidia/cuda:8.0-cudnn7-devel
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
