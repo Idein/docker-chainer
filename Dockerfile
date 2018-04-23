@@ -7,7 +7,7 @@ RUN apt-get update -y && \
 
 RUN curl -kL https://bootstrap.pypa.io/get-pip.py | python3 && \
     pip3 --no-cache-dir install cupy==2.5.0 chainer==3.4.0 pandas chainercv==0.8.0\
-    Pillow progressbar2 tqdm joblib matplotlib Sphinx scipy opencv-python scikit-learn h5py scikit-image\
+    Pillow progressbar2 tqdm joblib matplotlib Sphinx scipy opencv-python scikit-learn h5py scikit-image xmltodict\
     git+https://github.com/yasuyuky/chainer-ya-utils
 
 # Use Agg backend for matplotlib
