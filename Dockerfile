@@ -2,7 +2,7 @@ FROM nvidia/cuda:9.1-cudnn7-devel
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
-    git python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl && \
+    git python-opencv python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 RUN curl -kL https://bootstrap.pypa.io/get-pip.py | python3 && \
