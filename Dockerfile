@@ -1,8 +1,10 @@
-FROM nvidia/cuda:9.1-cudnn7-devel
+ARG CUDA_VERSION=9.2
+ARG CUDNN_VERSION=7
+FROM nvidia/cuda:${CUDA_VERSION}-cudnn${CUDNN_VERSION}-devel
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
-    git python-opencv python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl && \
+    git python-opencv python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl ca-certificates && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 COPY requirements.txt /requirements.txt
