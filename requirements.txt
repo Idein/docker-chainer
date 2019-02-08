@@ -1,7 +1,7 @@
 cupy==5.2.0
 chainer==5.2.0
 pandas
-chainercv==0.11.0
+chainercv==0.12.0
 Pillow
 progressbar2
 tqdm
