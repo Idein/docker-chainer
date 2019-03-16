@@ -15,3 +15,5 @@ h5py
 scikit-image
 xmltodict
 git+https://github.com/yasuyuky/chainer-ya-utils
+nnoir
+nnoir-chainer
