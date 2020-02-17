@@ -16,4 +16,4 @@ scikit-image
 xmltodict
 git+https://github.com/yasuyuky/chainer-ya-utils
 nnoir==1.0.2
-nnoir-chainer==1.1.0
+nnoir-chainer==1.1.1
