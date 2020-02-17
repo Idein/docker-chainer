@@ -1,4 +1,4 @@
-cupy==7.1.1
+cupy==7.2.0
 chainer==7.1.0
 pandas
 chainercv==0.13.1
