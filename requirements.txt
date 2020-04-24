@@ -1,5 +1,5 @@
 cupy==7.4.0
-chainer==7.2.0
+chainer==7.4.0
 pandas
 chainercv==0.13.1
 Pillow
