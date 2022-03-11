@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
-    git python-opencv python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl ca-certificates && \
+    git python3-dev python3-pip python3-tk zlib1g-dev libjpeg62-dev curl ca-certificates && \
     rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
 COPY requirements.txt /requirements.txt
