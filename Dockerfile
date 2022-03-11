@@ -1,6 +1,8 @@
 ARG CUDA_VERSION=11.5.1
 ARG CUDNN_VERSION=8
-FROM nvidia/cuda:${CUDA_VERSION}-cudnn${CUDNN_VERSION}-devel
+ARG IMGTYPE=runtime
+ARG OS=ubuntu20.04
+FROM nvidia/cuda:${CUDA_VERSION}-cudnn${CUDNN_VERSION}-${IMGTYPE}-${OS}
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && \
