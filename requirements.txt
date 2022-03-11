@@ -3,7 +3,7 @@ chainer==7.8.1
 pandas==1.4.1
 chainercv==0.13.1
 Pillow==9.0.1
-progressbar2==3.55.0
+progressbar2==4.0.0
 tqdm==4.62.3
 joblib==1.1.0
 matplotlib==3.5.1
