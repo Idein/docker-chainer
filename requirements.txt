@@ -1,6 +1,6 @@
 cupy-cuda115==10.3.0
 chainer==7.8.1
-pandas==1.4.1
+pandas==1.4.2
 chainercv==0.13.1
 Pillow==9.1.0
 progressbar2==4.0.0
