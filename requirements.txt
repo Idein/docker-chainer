@@ -4,7 +4,7 @@ pandas==1.4.2
 chainercv==0.13.1
 Pillow==9.1.0
 progressbar2==4.0.0
-tqdm==4.63.1
+tqdm==4.64.0
 joblib==1.1.0
 matplotlib==3.5.1
 Sphinx==4.5.0
