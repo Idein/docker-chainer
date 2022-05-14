@@ -13,7 +13,7 @@ opencv-python==4.5.5.64
 scikit-learn==1.0.2
 h5py==3.6.0
 scikit-image==0.19.2
-xmltodict==0.12.0
+xmltodict==0.13.0
 chainer-ya-utils @ git+https://github.com/yasuyuky/chainer-ya-utils@48ca72352c2ecaa877b2a8c738ab0c7a64e32ed8
 nnoir==1.0.8
 nnoir-chainer==1.1.3
