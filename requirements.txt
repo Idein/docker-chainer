@@ -2,7 +2,7 @@ cupy-cuda115==10.4.0
 chainer==7.8.1
 pandas==1.4.2
 chainercv==0.13.1
-Pillow==9.1.0
+Pillow==9.1.1
 progressbar2==4.0.0
 tqdm==4.64.0
 joblib==1.1.0
