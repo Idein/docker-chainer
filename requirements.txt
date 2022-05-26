@@ -11,7 +11,7 @@ Sphinx==4.5.0
 scipy==1.8.1
 opencv-python==4.5.5.64
 scikit-learn==1.1.1
-h5py==3.6.0
+h5py==3.7.0
 scikit-image==0.19.2
 xmltodict==0.13.0
 chainer-ya-utils @ git+https://github.com/yasuyuky/chainer-ya-utils@48ca72352c2ecaa877b2a8c738ab0c7a64e32ed8
