@@ -9,7 +9,7 @@ joblib==1.1.0
 matplotlib==3.5.2
 Sphinx==5.0.1
 scipy==1.8.1
-opencv-python==4.5.5.64
+opencv-python==4.6.0.66
 scikit-learn==1.1.1
 h5py==3.7.0
 scikit-image==0.19.2
