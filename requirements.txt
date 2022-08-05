@@ -10,7 +10,7 @@ matplotlib==3.5.2
 Sphinx==5.1.1
 scipy==1.9.0
 opencv-python==4.6.0.66
-scikit-learn==1.1.1
+scikit-learn==1.1.2
 h5py==3.7.0
 scikit-image==0.19.3
 xmltodict==0.13.0
