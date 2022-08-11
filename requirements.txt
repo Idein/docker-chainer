@@ -6,7 +6,7 @@ Pillow==9.2.0
 progressbar2==4.0.0
 tqdm==4.64.0
 joblib==1.1.0
-matplotlib==3.5.2
+matplotlib==3.5.3
 Sphinx==5.1.1
 scipy==1.9.0
 opencv-python==4.6.0.66
